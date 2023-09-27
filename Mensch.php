@@ -1,6 +1,6 @@
 <?php
 
-class Mensch
+abstract class Mensch
 {
     public int $height;
     private string $haircolor;
@@ -30,8 +30,5 @@ class Mensch
     {
         return 'Hallo meine name ist';
     }
-
-
-
 }
 
