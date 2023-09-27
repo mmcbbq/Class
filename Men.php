@@ -8,6 +8,9 @@ class Men extends Mensch
     {
         return 'Peeeee';
     }
-
+    public function say_hallo():string
+    {
+        return 'Hallo ich bin der Herr';
+    }
 
 }
